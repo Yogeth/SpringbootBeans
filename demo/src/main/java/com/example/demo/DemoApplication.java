@@ -15,7 +15,7 @@ public class DemoApplication {
 		System.out.println(wh.message);
 		System.out.println(wh.userName);
 		System.out.println(wh.passWord);
-		System.out.println(wh.greeting());
+		wh.greeting();
 		
 		
 	}
