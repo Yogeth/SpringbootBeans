@@ -13,8 +13,8 @@ public class DemoApplication {
 		//@Autowired
 		Whatsapp wh=new Whatsapp();
 		System.out.println(wh.message);
-		System.out.println(wh.username);
-		System.out.println(wh.password);
+		System.out.println(wh.userName);
+		System.out.println(wh.passWord);
 	//	System.out.println(wh.greeting());
 		
 		
