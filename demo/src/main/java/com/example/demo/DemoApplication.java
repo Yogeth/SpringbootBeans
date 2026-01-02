@@ -10,12 +10,12 @@ public class DemoApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
 		
-		@Autowired
-		Whatsapp wh;
+		//@Autowired
+		Whatsapp wh=new Whatsapp();
 		System.out.println(wh.message);
 		System.out.println(wh.username);
 		System.out.println(wh.password);
-		System.out.println(wh.greeting());
+	//	System.out.println(wh.greeting());
 		
 		
 	}
