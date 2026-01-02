@@ -10,8 +10,8 @@ public class DemoApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
 		
-		//@Autowired
-		Whatsapp wh=new Whatsapp();
+		@Autowired
+		Whatsapp wh;
 		System.out.println(wh.message);
 		System.out.println(wh.userName);
 		System.out.println(wh.passWord);
