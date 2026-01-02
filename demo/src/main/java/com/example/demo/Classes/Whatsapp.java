@@ -1,8 +1,8 @@
 package com.example.demo.Classes;
 public class Whatsapp{
-  String message="Hello";
-  String userName="Yoge";
-  int passWord=1234;
+  public String message="Hello";
+  public   String userName="Yoge";
+  public   int passWord=1234;
   
   public void greeting(){
     System.out.println("Welcome!!");
